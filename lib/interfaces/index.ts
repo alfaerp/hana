@@ -1,0 +1,1 @@
+export * from './hana-module-options.interface';
