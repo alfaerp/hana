@@ -33,10 +33,10 @@ export class HanaService {
   }
 
   query<T>(query: string): Promise<Array<T>> {
-    let host = this.connectionOptions.host || '';
+    let host = this.options.host || '';
 
     if (host.indexOf('http') >= 0) {
-      return axios.post(host, { ...this.connectionOptions, query });
+      return axios.post(host, { ...this.options, query });
     } else {
       let connection = createConnection(this.connectionOptions);
 

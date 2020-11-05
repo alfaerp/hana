@@ -1,6 +1,6 @@
 {
   "name": "@alfaerp/hana",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "SAP B1 HANA provider for Nest (@alfaerp/hana)",
   "author": "Henry Silva",
   "license": "MIT",
